@@ -45,16 +45,11 @@
 /* JUMBOTRON */
 
 .jumbotron {
-	padding: 50px 0;
-	display: flex;
-	justify-content: center;
-	height: 600px;
-
 	/* debug */
-	padding: 50px 0;
+	
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 490px;
     padding-top: 60px;
     display: flex;
     justify-content: center;
@@ -105,13 +100,17 @@ main>section {
 
 main>section>.container {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
 
 	/* debug */
-	min-height: 500px;
+	min-height: 600px;
 }
 
 .bg-white {
 	background-color: white;
+	padding: 50px;
 }
 
 .bg-gray {
@@ -119,19 +118,13 @@ main>section>.container {
 }
 
 .main-col {
-	flex-grow: 2;
-
-	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	
+	
 }
 
 .side-col {
-	flex-grow: 1;
+	width: 30%;
 
-	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
 }
 
 .hilighted-content {

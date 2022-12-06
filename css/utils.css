@@ -10,10 +10,22 @@
 	clear: both;
 	display: table;
 }
-
+a{
+	color: white;
+    text-decoration: none;
+}
 h1{
 	font-size: 50px;
 	font-weight: bolder;
+}
+
+h3, h4{
+	color: rgb(139, 139, 244);
+	font-weight: bolder;
+}
+
+li{
+	list-style: none;
 }
 
 button{

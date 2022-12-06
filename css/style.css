@@ -28,10 +28,8 @@
 	background-color: #3161e0;
 }
 
-.header-links a {
-	color: white;
+.header-links a{
     padding: 0 25px;
-    text-decoration: none;
 }
 
 .header-login button{
@@ -129,12 +127,25 @@ main>section>.container {
 }
 
 .hilighted-content {
-	flex-grow: 1;
-
 	/* debug */
 	min-height: 800px;
-	background-color: forestgreen;
-	border: 2px dashed black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h2{
+	font-size: 30px;
+    padding: 40px;
+    font-weight: bolder;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.btn-download{
+
 }
 
 /* FOOTER */
@@ -142,8 +153,6 @@ main>section>.container {
 .footer-main {
 	padding-top: 10px;
 
-
-	/* debug */
 	background-color: #23272a;
 }
 
@@ -151,35 +160,32 @@ main>section>.container {
 	display: flex;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
+	color: white;
 	border-bottom: 2px solid purple;
 
 	/* debug */
 	min-height: 500px;
 }
 
+h3{
+	font-size: 20px;
+}
+
+.language-flag{
+	float: left;
+	fl
+}
 .footer-main-col {
 	width: calc(100% / 3);
-
-	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
 }
 
 .footer-side-col {
 	display: flex;
 	width: calc(100% / 3 * 2);
-
-	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
 }
 
 .footer-col {
 	width: 25%;
-
-	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
 }
 
 .footer-bottom {

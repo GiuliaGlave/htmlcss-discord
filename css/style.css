@@ -152,19 +152,16 @@ h2{
 
 .footer-main {
 	padding-top: 10px;
-
-	background-color: #23272a;
+	padding: 5% 15%
 }
 
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
-	margin-bottom: 50px;
 	color: white;
 	border-bottom: 2px solid purple;
 
-	/* debug */
-	min-height: 500px;
+	min-height: 400px;
 }
 
 h3{
@@ -193,16 +190,15 @@ h3{
 	justify-content: space-between;
 	align-items: center;
 	min-height: 80px;
+	
 
-	/* debug */
-	background-color: #7fffd4;
 }
 
 .footer-bottom>* {
 	padding: 5px 10px;
 
+}
 
-	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
+.footer-btn{
+	padding: 10px;
 }

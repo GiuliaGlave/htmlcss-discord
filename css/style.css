@@ -48,10 +48,19 @@
 	padding: 50px 0;
 	display: flex;
 	justify-content: center;
+	height: 600px;
 
 	/* debug */
-	background-color: darkblue;
-	background-image: url(../img/jumbo.png);
+	padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .jumbotron .content {
@@ -67,6 +76,9 @@
 	background-color: transparent;
 }
 
+h1 {
+    margin: 15px 0 40px;
+}
 .container-btn-jumbotron {
 	display: flex;
     justify-content: space-evenly;

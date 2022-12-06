@@ -49,19 +49,41 @@
 	display: flex;
 	justify-content: center;
 
-
 	/* debug */
 	background-color: darkblue;
+	background-image: url(../img/jumbo.png);
 }
 
 .jumbotron .content {
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	min-height: 400px;
 	width: 50%;
+	text-align: center;
 
 	/* debug */
-	background-color: #ee82ee;
-	border: 2px dashed black;
+	background-color: transparent;
 }
+
+.container-btn-jumbotron {
+	display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.btn-download, .btn-browser{
+	padding: 10px 40px;
+    margin-right: 30px;
+}
+
+.btn-browser{
+	background-color: #23272a;
+	color: white;
+}
+	
 
 /* MAIN & SECTIONS */
 

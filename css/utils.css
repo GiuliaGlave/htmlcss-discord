@@ -10,3 +10,13 @@
 	clear: both;
 	display: table;
 }
+
+h1{
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+button{
+	border-radius: 40px;
+	border: none;
+}

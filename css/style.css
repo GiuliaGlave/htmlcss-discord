@@ -124,7 +124,8 @@ main>section>.container {
 
 .side-col {
 	width: 30%;
-
+    margin-top: 70px;
+    align-self: flex-start;
 }
 
 .hilighted-content {

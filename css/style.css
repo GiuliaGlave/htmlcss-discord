@@ -34,8 +34,12 @@
     text-decoration: none;
 }
 
-.header-login {
+.header-login button{
 	text-align: right;
+	width: 68px;
+    border-radius: 40px;
+	padding-right: 12px;
+	border: none;
 }
 
 /* JUMBOTRON */

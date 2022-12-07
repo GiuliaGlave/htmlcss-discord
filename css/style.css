@@ -32,18 +32,20 @@
     padding: 0 25px;
 }
 
-.header-login button{
+.header-login {
 	text-align: right;
 	width: 68px;
     border-radius: 40px;
 	padding-right: 12px;
 	border: none;
 }
-
+.login-btn{
+	font-size: 200;
+	padding: 10px;
+}
 /* JUMBOTRON */
 
 .jumbotron {
-	/* debug */
 	
     display: flex;
     justify-content: center;
@@ -201,4 +203,6 @@ h3{
 
 .footer-btn{
 	padding: 10px;
+	color: white;
+	background-color:rgb(161, 161, 250)
 }

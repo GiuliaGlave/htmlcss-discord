@@ -161,7 +161,7 @@ h2{
 	display: flex;
 	padding-bottom: 50px;
 	color: white;
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid rgb(161, 161, 250);
 
 	min-height: 400px;
 }
@@ -170,12 +170,27 @@ h3{
 	font-size: 20px;
 }
 
+.language{
+	display: flex;
+	gap: 10px;
+}
+
 .language-flag{
-	float: left;
-	fl
+	width: 30px;
 }
 .footer-main-col {
 	width: calc(100% / 3);
+	width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.logo-social{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    column-gap: 15px;
 }
 
 .footer-side-col {
@@ -192,7 +207,6 @@ h3{
 	justify-content: space-between;
 	align-items: center;
 	min-height: 80px;
-	
 
 }
 
